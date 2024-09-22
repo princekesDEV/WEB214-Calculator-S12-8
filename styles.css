@@ -1,0 +1,42 @@
+h1{
+    color: #457d7a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#calculator{
+    padding: 30px 35px;
+    width: 23%;
+    border: 1px solid rgb(200, 200, 200);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.7%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#calculator > div:first-child{
+    grid-area: 1/1/2/5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#calculator > div{
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.operator{
+    color: white;
+    background-color: black;
+}
+
+#cancel{
+    color: white;
+    background-color: rgb(240, 60, 28);
+}
